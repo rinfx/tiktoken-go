@@ -4,9 +4,10 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"regexp"
 	"sort"
 	"strings"
+
+	regexp "github.com/wasilibs/go-re2"
 
 	"github.com/dlclark/regexp2"
 )
